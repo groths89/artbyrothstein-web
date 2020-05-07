@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@media only screen and (max-width: 1770px){
+    footer#footer {
+        background-image: none,url(../../assets/paper-texture-tile.jpg);
+    } 
+}
+
+footer#footer {
+    margin: 0;
+    padding: 80px 0 0;
+    position: relative;
+    background-image: url(../../assets/paper-texture-tile.jpg);
+    background-position: 5% center,center top;
+    background-repeat: repeat-x;
+    z-index: -2;
+}
+
+footer#footer:before {
+    background-image: url(../../assets/footer-top-paint.png);
+    top: 0;
+}
+
+footer#footer:after {
+    background-image: url(../../assets/footer-bottom-paint.png);
+    bottom: 0;
+}
+
+footer#footer:after, footer#footer:before {
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 54px;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+}
+
+.site-footer {
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 37.5em){
+    #footer_widgets .widget-columns>section.widget {
+        width: 2%;
+        display: table-cell;
+        vertical-align: top;
+        padding: 0 45px 0;
+    }
+
+}
+
+
+#footer_widgets .widget-columns>section.widget {
+    margin-bottom: 20px;
+}
+
+info.inner-content-width, img {
+    max-width: 100%;
+}
+
+footer#footer .site-info {
+    text-align: center;
+    padding: 24px 0 10px;
+    font-size: .8em;
+    margin: 4px 0 0;
+    position: relative;
+}
+
+footer#footer .site-info:before {
+    background: url(../../assets/footer-flowers-left.png) 10% bottom no-repeat;
+}
+
+footer#footer .site-info:after {
+    background: url(../../assets/footer-flowers-right.png) 90% bottom no-repeat;
+}
+
+footer#footer .site-info:after, footer#footer .site-info:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 117px;
+    z-index: -1;
+}
+
+#footer_widgets .widget-title {
+    color: #c88462;
+    font-family: 'Caveat', cursive;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+}
