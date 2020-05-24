@@ -9,9 +9,13 @@ section.contact-container{
     margin: 35px auto 0;
     padding: 35px;
     min-height: 50vh;
-    width: 95%;
+    width: 80%;
     box-shadow: 0 0 29px 0 rgba(50,50,50,.32);
     z-index: -5;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 150px;
 }
 
 h1{
@@ -32,3 +36,85 @@ p{
     text-align: left;
     line-height: 18pt;
 }
+
+.contact-container h2{
+    text-align: left;
+}
+
+.col-left{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 400px;
+}
+
+.col-right{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    height: 400px;
+}
+
+.pagination{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.contact-info{
+    border: 1px solid #c9c9c9;
+    padding: 32px;
+    margin: 32px 0;
+    width: 90%;
+    text-align: left;
+}
+
+.contact-info li{
+    padding: 10px;
+}
+
+.form{
+    text-align: left;
+    width: 65%;
+    padding: 0;
+    margin: 32px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+}
+
+.your-name input, .your-email input{
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.submit input{
+    height: 30px;
+    padding: 0 35px;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+}
+
+
