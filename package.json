@@ -1,0 +1,22 @@
+{
+  "name": "artbyrothstein-web",
+  "version": "1.0.0",
+  "description": "Art By Rothstein new website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groths89/artbyrothstein-web.git"
+  },
+  "author": "Gregory Rothstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groths89/artbyrothstein-web/issues"
+  },
+  "homepage": "https://github.com/groths89/artbyrothstein-web#readme",
+  "devDependencies": {
+    "@angular/cli": "^9.1.4"
+  }
+}
