@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     CACHE_CONTROL: "84600"
-    S3_BUCKET: ""
+    S3_BUCKET: "rothstein-codedeploy-lightsail-bucket"
     BUILD_FOLDER: "dist"
 phases:
   install:
@@ -19,6 +19,6 @@ phases:
       - npm run build
 artifacts:
     files:
-        - '**/*'
+      - '**/*'
     base-directory: 'dist*'
     discard-paths: yes

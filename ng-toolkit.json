@@ -1,0 +1,15 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "artbyrothstein-web",
+    "skipInstall": false,
+    "directory": ".",
+    "lambdaTS": false,
+    "offline": false,
+    "clientProject": "artbyrothstein-web",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
